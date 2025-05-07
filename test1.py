@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title('title')
-st.header('this is hader')
+st.header('this is header')
 st.subheader('this is subheader')
 
 
@@ -12,3 +12,6 @@ with col1 :
 with col2 :
     st.title("here is column2 title")
     st.checkbox("this is checkbox1 in col2")
+
+col1.subheader("i am column1 subheader")
+col2.subheader("this i checkbox2 in col2")
