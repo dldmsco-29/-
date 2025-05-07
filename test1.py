@@ -14,4 +14,4 @@ with col2 :
     st.checkbox("this is checkbox1 in col2")
 
 col1.subheader("i am column1 subheader")
-col2.subheader("this i checkbox2 in col2")
+col2.checkbox("this i checkbox2 in col2")
